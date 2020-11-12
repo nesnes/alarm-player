@@ -19,7 +19,7 @@
  * @brief Levels available to define an Alarm priority
  * Order is important as int-conversion is used to define priority (with lower value = lower priority)
  */
-enum class AlarmLevel { LOW, MEDIUM, HIGH };
+enum class AlarmLevel { LOW=0, MEDIUM=1, HIGH=2 };
 
 /**
  * @brief Tone played during an alarm
